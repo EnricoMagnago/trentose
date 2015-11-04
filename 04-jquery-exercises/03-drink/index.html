@@ -12,33 +12,38 @@
 
 <body>
   <h1>Drink moderately on Xmas</h1>
-  
-  <!-- By clicking on this filter, you should display the proper list 
+    <div>
+        <select class = "drinkSelect">
+        <option default>select your drink</option>
+        </select>
+    </div>
+    <!-- By clicking on this filter, you should display the proper list 
        of gifts below
    -->
-  <div class="candrink">    
-    You can still drink
-  </div>
+    <div class = "drinking hidden">
+        <div class="candrink">    
+        You can still drink
+        </div>
   
-  <hr>
+        <hr>
   
-  <div class="drinks">
-    <!-- This are just examples, of the structure that is expected 
-     you should generate the html dynamically in javascript and set
-     the content here. 
+        <div class="drinks">
+        <!-- This are just examples, of the structure that is expected 
+        you should generate the html dynamically in javascript and set
+        the content here. 
      
-     The following content should be deleted
-    -->
-    <div>
-      <img src="img/beer.png">
-      <h2>Beer</h2>
-      <p>1000 ML</p> 
-      <!--  in the value is the number of alcohol in ML (glassML * level),
-       you should get this value when you click the button -->     
-      <button id="beer" value="25">Drink</button>
-    </div>     
-       
-  </div>
+The following content should be deleted
+        -->
+            <div>
+                <img src="img/beer.png">
+                <h2>Beer</h2>
+                <p>1000 ML</p> 
+                <!--  in the value is the number of alcohol in ML (glassML * level),
+                you should get this value when you click the button -->     
+                <button id="beer" value="25">Drink</button>
+            </div>     
+        </div>
+    </div>
     
 
 </body>
