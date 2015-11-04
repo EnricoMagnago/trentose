@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Put your js and css references here -->
+  <link rel="stylesheet" href="styles.css">        
+  <script src="jquery-2.1.0.min.js"></script>         
+  <script src="app.js"></script>        
+  <script src="data.js"></script>
+  
+</head>
+
+<body>
+  <h1>Keep your calories down on Xmas</h1>
+  
+  <!-- By clicking on this filter, you should display the proper list 
+       of gifts below
+   -->
+  <div class="display">    
+    Total of calories consumed <span id="total">0</span>
+  </div>
+  
+  <hr>
+  
+  <div class="food">
+    <!-- This are just examples, of the structure that is expected 
+     you should generate the html dynamically in javascript and set
+     the content here. 
+     
+     The following content should be deleted
+    -->
+    <div>
+      <img src="img/apple.png">
+      <h2>Apple</h2>
+      <p>100 calories</p> 
+      <!--  in the value is the number of calories, you can retrieve
+      this when you click the button-->     
+      <button id="apple" value="100">Add</button>
+    </div> 
+    
+    <div>
+      <img src="img/burger.png">
+      <h2>Burger</h2>
+      <p>300 calories</p>     
+      <button id="burger" value="300">Add</button>
+    </div>       
+       
+  </div>
+    
+
+</body>
+
+</html>
