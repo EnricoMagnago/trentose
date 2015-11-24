@@ -2,31 +2,31 @@
 
 var data = [
   {
-    phrase_en : "I'm a man",
-    phrase_de : "Ich bin ein Mann"
+    word_en : "man",
+    word_de : "Mann"
   },
   {
-    phrase_en : "I'm a woman",
-    phrase_de : "Ich bin eine Frau"
+    word_en : "yes",
+    word_de : "ja"
   },
   {
-    phrase_en : "I eat an apple",
-    phrase_de : "Ich esse einen Apfel"
+    word_en : "hello",
+    word_de : "hallo"
+  },  
+  {
+    word_en : "house",
+    word_de : "Haus"
   },
   {
-    phrase_en : "I have a dog",
-    phrase_de : "Ich habe einen Hund"
+    word_en : "red",
+    word_de : "rot"
   },
   {
-    phrase_en : "I hate exams",
-    phrase_de : "Ich hasse Tests"
-  }, 
-  {
-    phrase_en : "German is not a language you can learn",
-    phrase_de : "Deutsch ist keine Sprache, die du lernen kannst"
+    word_en : "Love",
+    word_de : "Liebe"
   },
   {
-    phrase_en : "Hello",
-    phrase_de : "Hallo"
-  }
+    word_en : "good",
+    word_de : "gut"
+  }   
 ];

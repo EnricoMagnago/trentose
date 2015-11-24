@@ -14,43 +14,42 @@
 
       <div class="jumbotron">
         
-        <!-- content of the lesson that should be visible during the practice -->
+        <!-- flashcards that should be visible during the practice -->
         <div class="practice">
           
-          <!-- sentences that are loaded dynamically -->
-          <ul class="sentences">
+          <!-- cards that are loaded dynamically -->
+          <ul class="cards">
+              <!-- This is just an example, you should load this dynamically -->
               <li id="1" class="current">
-                <h3>I'm a man</h3>
-                <h4 class="solution">Ich bin ein Mann</h4>                            
-                <span class="result-msg">Wrong answer</span>
+                <h3>Love</h3>
+                <h3 class="solution">Liebe</h3>
               </li> 
               <li id="2">
-                <h3>I'm a woman</h3>
-                <h4 class="solution">Ich bin eine Frau</h4>        
-              </li>    
-              <li id="3">
-                <h3>Hello</h3>
-                <h4 class="solution">Hallo</h4>        
-              </li>                                                                               
+                <h3>Apple</h3>
+                <h3 class="solution">Apfel</h3>   
+              </li>                                                                                
           </ul> 
           
-          <!-- the area where the user enters the data -->
+          <!-- the area where the user give feedback about the word -->
           <div class="options">  
             <p>
-              <input type="text" name="iSolution" class="form-control" placeholder="Insert the solution">                  
+              Did you remember the word?
             </p>
-            <p>
-              <button class="btn opt-continue">Continue</button>
+            <p>              
+              <button class="btn opt-incorrect">No</button>
+              <button class="btn opt-correct">Yes</button>
             </p>  
           </div>
         </div>
         
         <!-- the area that should be visible after the practice -->
         <div class="final">
-          <h3> You have solved <span id="tot-good">XXX</span> of <span id="tot">XXX</span></h3>
+          <h3> You remembered <span id="tot-good">XXX</span> of <span id="tot">XXX</span></h3>
         </div>
       
       </div>
+     <small>Click on the word to flip and reveal the translation of the word</small>
+          
   
   <script src="jquery-2.1.0.min.js"></script>         
   <script src="app.js"></script>        

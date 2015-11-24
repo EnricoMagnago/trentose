@@ -15,27 +15,28 @@ h1 > span{
   color: #c12f2f;
 }
 
-.sentences {
+.cards {
   list-style: none;
   padding-left: 0;
   display: inline-block;
   width: 100%;
 }
 
-.sentences > li{
+.cards > li{
   width: 100%;
-  height: 120px;
+  height: 80px;
   margin-right: 20px;
   margin-top: 20px;
   text-align: center;  
   display: none;
+  cursor: pointer;
 }
 
-.sentences > li h3 {
+.cards > li h3 {
   font-size: 3em;
 }
 
-.sentences > .current  {
+.cards > .current  {
   display: block;
 }
 
