@@ -36,5 +36,13 @@ footer p{
     text-align: center;    
 }
 
+.table{
+    background-image: url("../img/bg.jpg");    
+}
+
+.hidden{
+    display: none;
+}
+
 
 
